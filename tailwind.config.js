@@ -7,6 +7,7 @@ module.exports = {
         "selected-text": "#000000",
         primary: "#2CB9EA",
         accent: "#f5f5f5",
+        textblack: "#121212",
         "input-border": "#2Cb9EA",
       },
       fontFamily: {

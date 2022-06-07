@@ -16,16 +16,16 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed md:px-72 w-full h-[80px] flex justify-between items-center px-4 bg-transparent text-black">
+    <div className="fixed z-50 md:px-72 w-full h-[80px] flex justify-between items-center px-4 bg-opacity-20 bg-white text-black">
       <div>
         <img className="h-full w-auto" src={Logo} alt="Logo Image" />
       </div>
 
       <ul className="hidden md:flex items-center">
-        <li className="font-header">Home</li>
-        <li className="font-header">Services</li>
-        <li className="font-header">Works</li>
-        <li className="font-header">Contact Us</li>
+        <li className="text-pr font-semibold">Home</li>
+        <li className="text-pr font-semibold">Services</li>
+        <li className="text-pr font-semibold">Works</li>
+        <li className="text-pr font-semibold">Contact</li>
       </ul>
 
       <div onClick={handleClick} className="md:hidden z-10">
@@ -36,7 +36,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-transparent flex flex-col justify-center items-center"
+            : "absolute z-50 top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center"
         }
       >
         <li className="font-pl py-6 text-3xl">Home</li>
