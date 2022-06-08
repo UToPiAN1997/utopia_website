@@ -16,39 +16,39 @@ const Techstack = () => {
         And <span className="text-primary">Technologies</span> Designed For
         Creating Competative <span className="text-primary">Products</span>
       </h2>
-      <div className="flex flex-row justify-center gap-12 mt-6">
+      <div className="flex flex-row justify-center gap-12 mt-20">
         <div className="p-8 bg-white hover:bg-accent">
           <img
             src={Figmaicon}
-            className="h-20 w-auto justify-center items-center"
+            className="h-14 w-auto justify-center items-center"
             alt="Figma Icon"
           />
         </div>
         <div className="p-8 bg-white hover:bg-accent">
           <img
             src={Jsicon}
-            className="h-20 w-auto justify-center items-center"
+            className="h-14 w-auto justify-center items-center"
             alt="JS Icon"
           />
         </div>
         <div className="p-8 bg-white hover:bg-accent">
           <img
             src={Reacticon}
-            className="h-20 w-auto justify-center items-center"
+            className="h-14 w-auto justify-center items-center"
             alt="React Icon"
           />
         </div>
         <div className="p-8 bg-white hover:bg-accent">
           <img
             src={Nodejsicon}
-            className="h-20 w-auto justify-center items-center"
+            className="h-14 w-auto justify-center items-center"
             alt="Nodejs Icon"
           />
         </div>
         <div className="p-8 bg-white hover:bg-accent">
           <img
             src={Npmicon}
-            className="w-20 h-auto justify-center items-center"
+            className="w-14 h-auto justify-center items-center"
             alt="Npm Icon"
           />
         </div>

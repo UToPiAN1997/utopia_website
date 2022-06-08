@@ -7,6 +7,9 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Techstack from "./components/Techstack";
 import Works from "./components/Works";
+import Wall from "./components/Wall";
+import Testimonials from "./components/Testimonials";
+import CTA from "./components/CTA";
 
 function App() {
   return (
@@ -33,8 +36,17 @@ function App() {
       <div className="h-full bg-white">
         <Techstack />
       </div>
-      <div className="h-screen bg-white">
+      <div className="bg-white">
         <Works />
+      </div>
+      <div className="h-full bg-white">
+        <Testimonials />
+      </div>
+      <div className="h-full bg-white">
+        <Wall />
+      </div>
+      <div className="h-full bg-white">
+        <CTA />
       </div>
     </div>
   );

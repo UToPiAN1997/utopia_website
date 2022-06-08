@@ -29,12 +29,12 @@ const Services = () => {
           </p>
           <div className="flex mt-6">
             <div className="grid lg:grid-cols-2 md:grid-row-2 gap-6">
-              <div className="bg-accent w-auto h-auto px-8 py-12">
+              <div className="bg-accent w-auto h-auto px-8 py-12 group-hover:animate-fade-in-down">
                 <div className="flex flex-row gap-6 items-center">
                   <div className="bg-white rounded-full h-auto w-auto p-6">
                     <img
                       src={Designicon}
-                      className="h-auto w-auto"
+                      className="h-auto w-auto animate-wiggle"
                       alt="Design Icon"
                     />
                   </div>
@@ -49,7 +49,7 @@ const Services = () => {
                   <div className="bg-white rounded-full h-auto w-auto p-6">
                     <img
                       src={Webdevicon}
-                      className="h-auto w-auto"
+                      className="h-auto w-auto animate-wiggle"
                       alt="Design Icon"
                     />
                   </div>
@@ -64,7 +64,7 @@ const Services = () => {
                   <div className="bg-white rounded-full h-auto w-auto p-6">
                     <img
                       src={Mobileicon}
-                      className="h-auto w-auto"
+                      className="h-auto w-auto animate-wiggle"
                       alt="Design Icon"
                     />
                   </div>
@@ -79,7 +79,7 @@ const Services = () => {
                   <div className="bg-white rounded-full h-auto w-auto p-6">
                     <img
                       src={Brandicon}
-                      className="h-auto w-auto"
+                      className="h-auto w-auto animate-wiggle"
                       alt="Design Icon"
                     />
                   </div>

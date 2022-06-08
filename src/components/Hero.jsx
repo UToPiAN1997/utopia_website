@@ -17,7 +17,7 @@ const Hero = () => {
   };
   return (
     <div classname="hero min-h-screen">
-      <div className="flex flex-cols-2 justify-center items-center md:pt-20 pt-10 align-middle flex-wrap-reverse 2xl:gap-12 ">
+      <div className="flex flex-cols-2 group justify-center items-center md:pt-20 pt-10 align-middle flex-wrap-reverse 2xl:gap-12 ">
         <div className="flex flex-col justify-center 2xl:ml-20">
           <h1 className="text-h2 text-textblack font-black">
             From A <span className="text-primary">Thought</span> To An{" "}
@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="relative justify-center items-center">
           <div className="absolute z-10 justify-center items-center">
             <img
-              className="mt-28 hover:scale-105 duration-200 "
+              className="mt-28 group-hover:scale-105 animate-float duration-200"
               src={Heroimage}
               alt="Hero Background"
             />
