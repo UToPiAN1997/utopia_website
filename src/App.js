@@ -5,6 +5,8 @@ import React from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import Techstack from "./components/Techstack";
+import Works from "./components/Works";
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
       </div>
       <div className="h-full bg-white">
         <Services />
+      </div>
+      <div className="h-full bg-white">
+        <Techstack />
+      </div>
+      <div className="h-screen bg-white">
+        <Works />
       </div>
     </div>
   );

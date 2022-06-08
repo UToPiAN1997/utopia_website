@@ -17,9 +17,9 @@ const Hero = () => {
   };
   return (
     <div classname="hero min-h-screen">
-      <div className="flex flex-cols-2 justify-center items-center md:pt-20 pt-10 align-middle flex-wrap-reverse gap-12 ">
-        <div className="flex flex-col justify-center lg:ml-36">
-          <h1 className="text-h1 text-textblack font-black">
+      <div className="flex flex-cols-2 justify-center items-center md:pt-20 pt-10 align-middle flex-wrap-reverse 2xl:gap-12 ">
+        <div className="flex flex-col justify-center 2xl:ml-20">
+          <h1 className="text-h2 text-textblack font-black">
             From A <span className="text-primary">Thought</span> To An{" "}
             <span className="text-primary">Idea</span>
             <br /> <span className="text-primary">Build</span> Your Digital Word

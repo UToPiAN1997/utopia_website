@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-50 md:px-72 w-full h-[80px] flex justify-between items-center px-4 bg-opacity-20 bg-white text-black">
+    <div className="fixed z-50 2xl:px-72 w-full h-[80px] flex justify-between items-center px-4 bg-opacity-20 bg-white text-black">
       <div>
         <img className="h-full w-auto" src={Logo} alt="Logo Image" />
       </div>

@@ -13,10 +13,10 @@ const Services = () => {
     },
   };
   return (
-    <div className="md:px-72 py-20">
+    <div className="2xl:px-72 py-20">
       <div className="flex flex-col-2 flex-wrap-reverse">
         <div className="flex-row w-1/2">
-          <h2 className="cheader1 font-extrabold">
+          <h2 className="text-h2 font-extrabold">
             Brainstorming A <span className="text-primary">Creation</span>{" "}
             <br />
             From <span className="text-primary">Design</span>, To
