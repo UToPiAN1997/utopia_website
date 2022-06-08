@@ -13,7 +13,7 @@ module.exports = {
         },
         float: {
           "0%, 100%": {
-            transform: "translateY(-16px)",
+            transform: "translateY(-8px)",
           },
           "50%": {
             transform: "translateY(8px)",
@@ -21,8 +21,8 @@ module.exports = {
         },
         "fade-in-down": {
           "0%": {
-            opacity: "0",
-            transform: "translateY(-10px)",
+            opacity: "0.5",
+            transform: "translateY(24px)",
           },
           "100%": {
             opacity: "1",
@@ -32,15 +32,15 @@ module.exports = {
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
-        float: "float 4s ease-in-out infinite",
-        "fade-in-down": "fade-in-down 0.5s ease-out",
+        float: "float 7s ease-in-out infinite",
+        "fade-in-down": "fade-in-down 0.5s ease-in-out",
       },
       colors: {
         body: "#ffffff",
         "selected-text": "#000000",
         primary: "#2CB9EA",
         accent: "#f5f5f5",
-        textblack: "#121212",
+        textblack: "#222222",
         "input-border": "#2Cb9EA",
       },
       fontFamily: {

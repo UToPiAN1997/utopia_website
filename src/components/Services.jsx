@@ -14,9 +14,9 @@ const Services = () => {
   };
   return (
     <div className="2xl:px-72 py-20">
-      <div className="flex flex-col-2 flex-wrap-reverse">
+      <div className="flex flex-col-2 flex-wrap-reverse group">
         <div className="flex-row w-1/2">
-          <h2 className="text-h2 font-extrabold">
+          <h2 className="text-h2 text-textblack font-extrabold">
             Brainstorming A <span className="text-primary">Creation</span>{" "}
             <br />
             From <span className="text-primary">Design</span>, To
@@ -28,8 +28,8 @@ const Services = () => {
             more. The main aim is to create and make the impossible possible.
           </p>
           <div className="flex mt-6">
-            <div className="grid lg:grid-cols-2 md:grid-row-2 gap-6">
-              <div className="bg-accent w-auto h-auto px-8 py-12 group-hover:animate-fade-in-down">
+            <div className="grid lg:grid-cols-2 md:grid-row-2 gap-6 group-hover:animate-fade-in-down">
+              <div className="bg-accent w-auto h-auto px-8 py-12 rounded-xl">
                 <div className="flex flex-row gap-6 items-center">
                   <div className="bg-white rounded-full h-auto w-auto p-6">
                     <img
@@ -38,13 +38,15 @@ const Services = () => {
                       alt="Design Icon"
                     />
                   </div>
-                  <h1 className="text-black text-pl">Design</h1>
+                  <h1 className="text-textblack text-pl font-extrabold uppercase">
+                    Design
+                  </h1>
                 </div>
                 <p className="text-pr font-normal mt-4">
                   -Branding -Logo Design -UI Design -UX Design
                 </p>
               </div>
-              <div className="bg-accent w-auto h-auto px-8 py-12">
+              <div className="bg-accent w-auto h-auto px-8 py-12 rounded-xl">
                 <div className="flex flex-row gap-6 items-center">
                   <div className="bg-white rounded-full h-auto w-auto p-6">
                     <img
@@ -53,13 +55,15 @@ const Services = () => {
                       alt="Design Icon"
                     />
                   </div>
-                  <h1 className="text-black text-pl">Web Development</h1>
+                  <h1 className="text-textblack font-extrabold text-pl uppercase">
+                    Web Development
+                  </h1>
                 </div>
                 <p className="text-pr font-normal mt-4">
                   -Branding -Logo Design -UI Design -UX Design
                 </p>
               </div>
-              <div className="bg-accent w-auto h-auto px-8 py-12">
+              <div className="bg-accent w-auto h-auto px-8 py-12 rounded-xl">
                 <div className="flex flex-row gap-6 items-center">
                   <div className="bg-white rounded-full h-auto w-auto p-6">
                     <img
@@ -68,13 +72,15 @@ const Services = () => {
                       alt="Design Icon"
                     />
                   </div>
-                  <h1 className="text-black text-pl">Mobile Development</h1>
+                  <h1 className="text-textblack font-extrabold text-pl uppercase">
+                    Mobile Development
+                  </h1>
                 </div>
                 <p className="text-pr font-normal mt-4">
                   -Branding -Logo Design -UI Design -UX Design
                 </p>
               </div>
-              <div className="bg-accent w-auto h-auto px-8 py-12">
+              <div className="bg-accent w-auto h-auto px-8 py-12 rounded-xl">
                 <div className="flex flex-row gap-6 items-center">
                   <div className="bg-white rounded-full h-auto w-auto p-6">
                     <img
@@ -83,7 +89,9 @@ const Services = () => {
                       alt="Design Icon"
                     />
                   </div>
-                  <h1 className="text-black text-pl">Brand Identity</h1>
+                  <h1 className="text-textblack font-extrabold text-pl uppercase">
+                    Brand Identity
+                  </h1>
                 </div>
                 <p className="text-pr font-normal mt-4">
                   -Branding -Logo Design -UI Design -UX Design

@@ -18,18 +18,18 @@ const Hero = () => {
   return (
     <div classname="hero min-h-screen">
       <div className="flex flex-cols-2 group justify-center items-center md:pt-20 pt-10 align-middle flex-wrap-reverse 2xl:gap-12 ">
-        <div className="flex flex-col justify-center 2xl:ml-20">
+        <div className="flex flex-col justify-center 2xl:ml-20 transition">
           <h1 className="text-h2 text-textblack font-black">
             From A <span className="text-primary">Thought</span> To An{" "}
             <span className="text-primary">Idea</span>
             <br /> <span className="text-primary">Build</span> Your Digital Word
           </h1>
-          <p className="cpregular font-normal mt-4">
+          <p className="cpregular font-normal mt-4 ">
             From an idea to brand, from brand to a product, from product to
             success
           </p>
           <div className="mt-4">
-            <button className="text-white font-h4 font-bold group hover:transition bg-primary px-6 py-3 flex items-center gap-4">
+            <button className="text-white font-h4 font-bold group hover:transition bg-primary px-6 py-3 flex items-center gap-2">
               Contact
               <span className="group-hover:translate-x-2 group-hover:duration-200">
                 <HiArrowNarrowRight />
@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="relative justify-center items-center">
           <div className="absolute z-10 justify-center items-center">
             <img
-              className="mt-28 group-hover:scale-105 animate-float duration-200"
+              className="mt-28 animate-float duration-200"
               src={Heroimage}
               alt="Hero Background"
             />
