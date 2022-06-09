@@ -5,8 +5,8 @@ import TestiSlider from "./Testislider";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="section group bg-secondary 3xl:mx-96 2xl:mx-72 xl:mx-16 lg:px-12">
-      <div className="">
+    <section id="testimonials" className="section group bg-secondary 3xl:mx-96 2xl:mx-72 xl:mx-16 lg:px-12 md:px-14 sm:px-2">
+      <div className="sm:mx-2">
         <h2 className="text-h2 font-extrabold text-left">
           SOME OF OUR <span className="text-primary">TESTIMONIALS</span>
         </h2>

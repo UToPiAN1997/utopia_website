@@ -14,9 +14,9 @@ const Services = () => {
   };
   return (
     <div class="Services">
-      <div className="3xl:mx-96 2xl:mx-72 xl:mx-16 lg:mx-12 py-20">
-        <div className="flex flex-col-2 flex-wrap-reverse group">
-          <div className="flex-row w-1/2">
+      <div className="3xl:px-96 2xl:px-72 xl:px-16 lg:px-12 md:px-14 sm:px-2 py-20">
+        <div className="flex flex-col-2 flex-wrap group">
+          <div className="flex-row w-full xl:w-1/2 sm:w-full">
             <h2 className="text-h2 text-textblack font-extrabold">
               BRAINSTORMING A <span className="text-primary">CREATION</span>{" "}
               <br />
@@ -30,9 +30,9 @@ const Services = () => {
               impossible possible.
             </p>
             <div className="flex mt-6">
-              <div className="grid lg:grid-cols-2 md:grid-row-2 gap-6 group-hover:animate-fade-in-up">
+              <div className="grid md:grid-cols-2 md:grid-row-2 gap-6 group-hover:animate-fade-in-up">
                 <div className="bg-gradient-to-b from-transparent to-accent w-auto h-auto px-8 py-12 rounded-xl">
-                  <div className="flex flex-row gap-6 items-center">
+                  <div className="flex flex-row gap-6 flex-wrap items-center">
                     <div className="bg-white rounded-full h-auto w-auto p-6">
                       <img
                         src={Designicon}
@@ -102,7 +102,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full hidden xl:flex">
             <Lottie options={defaultOptions} height={750} width={750} />
           </div>
         </div>

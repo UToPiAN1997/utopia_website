@@ -19,18 +19,25 @@ function Navbar() {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 64) {
-      setNavbar(true);
+    console.log(window.scrollY)
+    if (window.scrollY >= 66) {
+      setNavbar(true)
     } else {
-      setNavbar(false);
+      setNavbar(false)
     }
-  };
+  }
+
+  useEffect(() => {
+    changeBackground()
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground)
+  })
 
   window.addEventListener("scroll", changeBackground);
 
   return (
     <div className={navbar ? "navbar active" : "navbar"}>
-      <div className="fixed z-50 2xl:px-72 xl:px-16 lg:px-12 w-full h-[80px] flex justify-between items-center px-4 text-black">
+      <div className="fixed z-50 2xl:px-72 xl:px-16 lg:px-12 w-full h-[80px] flex bg-gradient-to-b from-accent to-transparent justify-between items-center px-4 text-black">
         <div>
           <Link to="Homepage" smooth={true} duration={500}>
             <img className="h-full w-auto" src={Logo} alt="Logo Image" />

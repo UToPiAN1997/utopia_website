@@ -10,13 +10,13 @@ import React from "react";
 
 const Techstack = () => {
   return (
-    <div className="3xl:mx-96 2xl:mx-72 xl:mx-16 py-20 group">
-      <h2 className="text-h2 font-extrabold text-center">
+    <div className="3xl:mx-96 2xl:mx-72 xl:mx-16 lg:px-12 md:px-14 sm:px-2 py-20 group">
+      <h2 className="text-h2 font-extrabold text-start">
         <span className="text-primary">TOOLS </span>
         AND <span className="text-primary">TECHNOLOGIES</span> DESIGNED FOR
         CREATING COMPETITIVE <span className="text-primary">PRODUCTS</span>
       </h2>
-      <div className="flex flex-row justify-center gap-12 mt-20">
+      <div className="flex flex-row flex-wrap justify-center gap-12 mt-20">
         <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-down">
           <img
             src={Figmaicon}
