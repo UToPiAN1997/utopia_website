@@ -10,7 +10,7 @@ import React from "react";
 
 const Techstack = () => {
   return (
-    <div className="3xl:mx-96 2xl:mx-72 xl:mx-16 lg:px-12 md:px-14 sm:px-2 py-20 group">
+    <div className="2xl:mx-72 xl:mx-16 lg:px-12 md:px-14 sm:px-2 py-20 group">
       <h2 className="text-h2 font-extrabold text-start">
         <span className="text-primary">TOOLS </span>
         AND <span className="text-primary">TECHNOLOGIES</span> DESIGNED FOR

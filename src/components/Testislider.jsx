@@ -39,7 +39,7 @@ const TestiSlider = () => {
           return (
             <SwiperSlide key={index}>
               <div className="flex flex-col lg:flex-row gap-12 lg:gap-32 bg-gradient-to-b from-transparent to-accent p-16 rounded-xl">
-                <div className="animate-float">
+                <div className="animate-float 2xl:w-1/2">
                   <img src={mockupImg} className="" alt="" />
                 </div>
                 <div className="flex flex-col max-w-3xl justify-center">
