@@ -4,6 +4,14 @@ import React, { useState, useEffect } from "react";
 import { projectsData } from "../data";
 import { projectsNav } from "../data";
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "../swiper.css";
+
 // import components
 import Project from "./Project";
 
@@ -30,7 +38,7 @@ const Projects = () => {
   };
 
   return (
-    <div>
+    <div className="lg:mx-72">
       {/* projects nav */}
       <nav className="mt-4 mb-4">
         <ul className="flex flex-col md:flex-row items-start text-black font-normal text-pr">
@@ -52,7 +60,7 @@ const Projects = () => {
         </ul>
       </nav>
       {/* projects */}
-      <section className="grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8">
+      <section className="flex gap-y-12 flex-cols-3 lg:flex-nowrap flex-wrap lg:gap-x-8 lg:gap-y-8">
         {projects.map((item) => {
           return <Project item={item} key={item.id} />;
         })}

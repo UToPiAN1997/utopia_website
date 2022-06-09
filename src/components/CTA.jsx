@@ -21,9 +21,9 @@ const CTA = () => {
         </div>
         <div className="flex flex-col w-1/2 justify-center">
           <h2 className="text-h2 font-extrabold capitalize text-left">
-            Ready to launch your <span className="text-primary">Product?</span>
+            READY TO LAUNCH YOUR <span className="text-primary">PRODUCT?</span>
             <br />
-            <span className="text-primary">We</span> are here for you
+            <span className="text-primary">WE</span> ARE HERE FOR YOU
           </h2>
           <form className="flex flex-col mt-4">
             <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">

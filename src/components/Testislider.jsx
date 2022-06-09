@@ -1,5 +1,3 @@
-import { Testimonial1 } from "../urlFilePath";
-
 import React from "react";
 
 // testimonials data
@@ -40,7 +38,7 @@ const TestiSlider = () => {
           } = item;
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col lg:flex-row gap-12 lg:gap-32 bg-accent p-16 rounded-xl">
+              <div className="flex flex-col lg:flex-row gap-12 lg:gap-32 bg-gradient-to-b from-transparent to-accent p-16 rounded-xl">
                 <div className="w-1/2">
                   <img src={mockupImg} className="" alt="" />
                 </div>

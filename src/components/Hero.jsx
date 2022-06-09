@@ -18,11 +18,12 @@ const Hero = () => {
   return (
     <div classname="hero min-h-screen">
       <div className="flex flex-cols-2 group justify-center items-center md:pt-20 pt-10 align-middle flex-wrap-reverse 2xl:gap-12 ">
-        <div className="flex flex-col justify-center 2xl:ml-20 transition">
+        <div className="flex flex-col justify-center 2xl:ml-28 transition">
           <h1 className="text-h2 text-textblack font-black">
-            From A <span className="text-primary">Thought</span> To An{" "}
-            <span className="text-primary">Idea</span>
-            <br /> <span className="text-primary">Build</span> Your Digital Word
+            FROM A <span className="text-primary">THOUGHT</span> TO AN{" "}
+            <span className="text-primary">IDEA</span>
+            <br /> <span className="text-primary">BUILD</span> YOUR DIGITAL
+            WORLD
           </h1>
           <p className="cpregular font-normal mt-4 ">
             From an idea to brand, from brand to a product, from product to

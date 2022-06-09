@@ -4,7 +4,7 @@ const Project = ({ item }) => {
   return (
     <div
       key={item.id}
-      className=" my-4 flex flex-col items-start text-center transition hover:-translate-y-6"
+      className=" my-4 flex flex-col items-start text-center transition hover:-translate-y-2"
     >
       <div className="">
         <img className="rounded-lg" src={item.image} alt="" />

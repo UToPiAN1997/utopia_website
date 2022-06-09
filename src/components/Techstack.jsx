@@ -10,42 +10,42 @@ import React from "react";
 
 const Techstack = () => {
   return (
-    <div className="2xl:mx-72 py-20">
+    <div className="2xl:mx-72 py-20 group">
       <h2 className="text-h2 font-extrabold text-center">
-        <span className="text-primary">Tools </span>
-        And <span className="text-primary">Technologies</span> Designed For
-        Creating Competative <span className="text-primary">Products</span>
+        <span className="text-primary">TOOLS </span>
+        AND <span className="text-primary">TECHNOLOGIES</span> DESIGNED FOR
+        CREATING COMPETITIVE <span className="text-primary">PRODUCTS</span>
       </h2>
       <div className="flex flex-row justify-center gap-12 mt-20">
-        <div className="p-8 bg-white hover:bg-accent">
+        <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-down">
           <img
             src={Figmaicon}
             className="h-14 w-auto justify-center items-center"
             alt="Figma Icon"
           />
         </div>
-        <div className="p-8 bg-white hover:bg-accent">
+        <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-up">
           <img
             src={Jsicon}
             className="h-14 w-auto justify-center items-center"
             alt="JS Icon"
           />
         </div>
-        <div className="p-8 bg-white hover:bg-accent">
+        <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-down">
           <img
             src={Reacticon}
             className="h-14 w-auto justify-center items-center"
             alt="React Icon"
           />
         </div>
-        <div className="p-8 bg-white hover:bg-accent">
+        <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-up">
           <img
             src={Nodejsicon}
             className="h-14 w-auto justify-center items-center"
             alt="Nodejs Icon"
           />
         </div>
-        <div className="p-8 bg-white hover:bg-accent">
+        <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-down">
           <img
             src={Npmicon}
             className="w-14 h-auto justify-center items-center"
