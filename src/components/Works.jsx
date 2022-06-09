@@ -3,9 +3,9 @@ import Projects from "./Projects";
 
 const Works = () => {
   return (
-    <div className="py-20 group">
-      <div className="2xl:mx-72">
-        <h2 className="text-h2 font-extrabold text-left">
+    <div className="3xl:px-96 2xl:px-72 xl:px-16 lg:px-12 py-20 group">
+      <div className="">
+        <h2 className="text-h2 font-extrabold text-left ">
           <span className="text-primary">IDEAS </span>
           WE HAVE BROUGHT TO <span className="text-primary">REALITY</span>
         </h2>

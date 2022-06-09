@@ -2,6 +2,14 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1900px',
+        '2xl': '1536px',
+        'xl': '1400px',
+        'lg': '1020px',
+        'md': '760px',
+        'sm': '640px',
+      },
       keyframes: {
         wiggle: {
           "0%, 100%": {

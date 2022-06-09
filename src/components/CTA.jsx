@@ -14,7 +14,7 @@ const CTA = () => {
     },
   };
   return (
-    <div className="xl:mx-72 py-20">
+    <div className="3xl:mx-96 2xl:mx-72 xl:mx-16 lg:px-12 py-20">
       <div className="flex flex-cols-2">
         <div className="flex w-1/2">
           <Lottie options={defaultOptions} height={750} width={750} />

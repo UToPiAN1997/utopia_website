@@ -29,12 +29,12 @@ function App() {
       <section title="Homepage" id="Homepage">
         <div className="relative min-h-screen">
           <img
-            className="w-full h-full fixed -z-50 bg-center cover"
+            className="w-full fixed -z-50 bg-center cover"
             src={Herobg}
             alt="Hero Background"
           />
           <img
-            className="absolute bottom-0 -z-40"
+            className="absolute w-full bottom-0 -z-40"
             src={Herooverlay}
             alt="Hero Overlay"
           />

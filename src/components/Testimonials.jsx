@@ -5,7 +5,7 @@ import TestiSlider from "./Testislider";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="section group bg-secondary xl:mx-72">
+    <section id="testimonials" className="section group bg-secondary 3xl:mx-96 2xl:mx-72 xl:mx-16 lg:px-12">
       <div className="">
         <h2 className="text-h2 font-extrabold text-left">
           SOME OF OUR <span className="text-primary">TESTIMONIALS</span>
@@ -16,7 +16,7 @@ const Testimonials = () => {
           more. The main aim is to create and make the impossible possible.
         </p>
       </div>
-      <div className="container mt-12 group-hover:animate-fade-in-up">
+      <div className="mt-12 group-hover:animate-fade-in-up">
         <div className="flex flex-col items-center text-center"></div>
         <TestiSlider />
       </div>

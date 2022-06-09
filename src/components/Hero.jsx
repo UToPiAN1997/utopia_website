@@ -16,9 +16,9 @@ const Hero = () => {
     },
   };
   return (
-    <div classname="hero min-h-screen">
-      <div className="flex flex-cols-2 group justify-center items-center md:pt-20 pt-10 align-middle flex-wrap-reverse 2xl:gap-12 ">
-        <div className="flex flex-col justify-center 2xl:ml-28 transition">
+    <div classname="hero">
+      <div className="xl:px-16 flex flex-cols-2 group justify-center items-center md:pt-20 pt-10 align-middle xl:flex-nowrap flex-wrap-reverse 2xl:gap-12">
+        <div className="flex flex-col justify-center transition lg:items-center">
           <h1 className="text-h2 text-textblack font-black">
             FROM A <span className="text-primary">THOUGHT</span> TO AN{" "}
             <span className="text-primary">IDEA</span>
@@ -46,7 +46,7 @@ const Hero = () => {
               alt="Hero Background"
             />
           </div>
-          <div className=" z-0 justify-center items-center">
+          <div className="z-0 justify-center items-center">
             <Lottie options={defaultOptions} height={800} width={800} />
           </div>
         </div>

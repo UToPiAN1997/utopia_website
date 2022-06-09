@@ -38,7 +38,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="lg:mx-72">
+    <div className="">
       {/* projects nav */}
       <nav className="mt-4 mb-4">
         <ul className="flex flex-col md:flex-row items-start text-black font-normal text-pr">
