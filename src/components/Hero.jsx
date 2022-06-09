@@ -17,8 +17,8 @@ const Hero = () => {
   };
   return (
     <div classname="hero">
-      <div className="2xl:mx-72 xl:mx-16 lg:px-12 md:px-14 sm:px-2 flex flex-cols-2 group justify-center md:mx-0 sm:mx-2 items-center md:pt-20 pt-10 align-middle xl:flex-nowrap flex-wrap-reverse 2xl:gap-12">
-        <div className="flex flex-col justify-center transition items-start 2xl:w-full lg:w-full"> 
+      <div className="2xl:mx-60 xl:mx-16 lg:px-12 md:px-14 sm:px-2 flex flex-cols-2 group justify-center md:mx-0 sm:mx-2 items-center md:pt-20 pt-10 align-middle xl:flex-nowrap flex-wrap-reverse 2xl:gap-12">
+        <div className="flex flex-col justify-center transition items-start 2xl:w-full lg:w-full">
           <h1 className="text-h2 text-textblack font-black">
             FROM A <span className="text-primary">THOUGHT</span> TO AN{" "}
             <span className="text-primary">IDEA</span>

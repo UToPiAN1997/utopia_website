@@ -2,6 +2,8 @@ import React from "react";
 import Lottie from "react-lottie";
 import animationData from "../lotties/rocket.json";
 
+import { FaBars, FaInstagram } from "react-icons/fa";
+
 import { HiArrowNarrowRight } from "react-icons/hi";
 
 const CTA = () => {
@@ -14,7 +16,7 @@ const CTA = () => {
     },
   };
   return (
-    <div className="2xl:mx-72 xl:mx-16 lg:px-12 md:px-14 sm:px-2 py-20">
+    <div className="2xl:mx-60 xl:mx-16 lg:px-12 md:px-14 sm:px-2 py-20">
       <div className="flex flex-cols-2 flex-wrap lg:flex-nowrap gap-4">
         <div className="flex 2xl:w-full xl:w-2/5 lg:w-2/5 md:w-full sm:w-full">
           <Lottie options={defaultOptions} height={750} width={750} />
@@ -27,7 +29,6 @@ const CTA = () => {
           </h2>
           <form className="flex flex-col mt-4">
             <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
-              
               <input
                 type="text"
                 className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative text-pl"
@@ -35,7 +36,6 @@ const CTA = () => {
               />
             </div>
             <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
-              
               <input
                 type="text"
                 className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative text-pl"
@@ -43,7 +43,6 @@ const CTA = () => {
               />
             </div>
             <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
-              
               <input
                 type="text"
                 className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative text-pl"

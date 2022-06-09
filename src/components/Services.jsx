@@ -31,9 +31,9 @@ const Services = () => {
             </p>
             <div className="flex mt-6">
               <div className="grid md:grid-cols-2 md:grid-row-2 gap-6 group-hover:animate-fade-in-up">
-                <div className="bg-gradient-to-b from-transparent to-accent w-auto h-auto px-8 py-12 rounded-xl">
+                <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 flex-wrap items-center">
-                    <div className="bg-white rounded-full h-auto w-auto p-6">
+                    <div className="bg-primary rounded-full h-auto w-auto p-6">
                       <img
                         src={Designicon}
                         className="h-auto w-auto animate-wiggle"
@@ -48,9 +48,9 @@ const Services = () => {
                     -Branding -Logo Design -UI Design -UX Design
                   </p>
                 </div>
-                <div className="bg-gradient-to-b from-transparent to-accent w-auto h-auto px-8 py-12 rounded-xl">
+                <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 items-center">
-                    <div className="bg-white rounded-full h-auto w-auto p-6">
+                    <div className="bg-primary rounded-full h-auto w-auto p-6">
                       <img
                         src={Webdevicon}
                         className="h-auto w-auto animate-wiggle"
@@ -65,9 +65,9 @@ const Services = () => {
                     -Branding -Logo Design -UI Design -UX Design
                   </p>
                 </div>
-                <div className="bg-gradient-to-b from-transparent to-accent w-auto h-auto px-8 py-12 rounded-xl">
+                <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 items-center">
-                    <div className="bg-white rounded-full h-auto w-auto p-6">
+                    <div className="bg-primary rounded-full h-auto w-auto p-6">
                       <img
                         src={Mobileicon}
                         className="h-auto w-auto animate-wiggle"
@@ -82,9 +82,9 @@ const Services = () => {
                     -Branding -Logo Design -UI Design -UX Design
                   </p>
                 </div>
-                <div className="bg-gradient-to-b from-transparent to-accent w-auto h-auto px-8 py-12 rounded-xl">
+                <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 items-center">
-                    <div className="bg-white rounded-full h-auto w-auto p-6">
+                    <div className="bg-primary rounded-full h-auto w-auto p-6">
                       <img
                         src={Brandicon}
                         className="h-auto w-auto animate-wiggle"
