@@ -3,12 +3,12 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        '3xl': '1920px',
-        '2xl': '1536px',
-        'xl': '1400px',
-        'lg': '1020px',
-        'md': '760px',
-        'sm': '320px',
+        "3xl": "1925px",
+        "2xl": "1536px",
+        xl: "1400px",
+        lg: "1020px",
+        md: "760px",
+        sm: "320px",
       },
       keyframes: {
         wiggle: {

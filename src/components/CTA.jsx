@@ -16,12 +16,12 @@ const CTA = () => {
     },
   };
   return (
-    <div className="2xl:mx-60 xl:mx-16 lg:px-12 md:px-14 sm:px-2 py-20">
+    <div className="2xl:mx-60 xl:mx-16 lg:px-12 md:px-14 sm:px-2 py-20 group">
       <div className="flex flex-cols-2 flex-wrap lg:flex-nowrap gap-4">
-        <div className="flex 2xl:w-full xl:w-2/5 lg:w-2/5 md:w-full sm:w-full">
+        <div className="flex 3xl:w-1/2 2xl:w-1/2 xl:w-2/5 lg:w-2/5 md:w-full sm:w-full">
           <Lottie options={defaultOptions} height={750} width={750} />
         </div>
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center group-hover:animate-fade-in-up w-full">
           <h2 className="text-h2 font-extrabold capitalize text-left">
             READY TO LAUNCH YOUR <span className="text-primary">PRODUCT?</span>
             <br />

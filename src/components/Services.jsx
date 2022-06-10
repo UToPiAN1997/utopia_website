@@ -17,20 +17,22 @@ const Services = () => {
       <div className="2xl:px-72 xl:px-16 lg:px-12 md:px-14 sm:px-2 py-20">
         <div className="flex flex-col-2 flex-wrap group">
           <div className="flex-row w-full xl:w-1/2 sm:w-full">
-            <h2 className="text-h2 text-textblack font-extrabold">
-              BRAINSTORMING A <span className="text-primary">CREATION</span>{" "}
-              <br />
-              FROM <span className="text-primary">DESIGN</span>, TO
-              <span className="text-primary"> DEVELOPMENT</span>
-            </h2>
-            <p className="text-pr font-normal mt-2">
-              There are no limits to creation whether be it logo, UI, UX,
-              website, mobile application, photo manipulation, vector
-              illustration and even more. The main aim is to create and make the
-              impossible possible.
-            </p>
+            <div className="group-hover:animate-fade-in-up">
+              <h2 className="text-h2 text-textblack font-extrabold">
+                BRAINSTORMING A <span className="text-primary">CREATION</span>{" "}
+                <br />
+                FROM <span className="text-primary">DESIGN</span>, TO
+                <span className="text-primary"> DEVELOPMENT</span>
+              </h2>
+              <p className="text-pr font-normal mt-2">
+                There are no limits to creation whether be it logo, UI, UX,
+                website, mobile application, photo manipulation, vector
+                illustration and even more. The main aim is to create and make
+                the impossible possible.
+              </p>
+            </div>
             <div className="flex mt-6">
-              <div className="grid md:grid-cols-2 md:grid-row-2 gap-6 group-hover:animate-fade-in-up">
+              <div className="grid md:grid-cols-2 md:grid-row-2 gap-6">
                 <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 flex-wrap items-center">
                     <div className="bg-primary rounded-full h-auto w-auto p-6">

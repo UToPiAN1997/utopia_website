@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from "react";
+import Slider from "react-slick";
+// Import css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // import data
 import { projectsData } from "../data";
 import { projectsNav } from "../data";
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "../swiper.css";
 
 // import components
 import Project from "./Project";
@@ -37,6 +33,51 @@ const Projects = () => {
     setActive(index);
   };
 
+  var settings = {
+    dots: true,
+    arrow: true,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          infinite: true,
+          speed: 500,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          infinite: true,
+          speed: 500,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          infinite: true,
+          speed: 500,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <div className="">
       {/* projects nav */}
@@ -60,10 +101,13 @@ const Projects = () => {
         </ul>
       </nav>
       {/* projects */}
-      <section className="flex gap-y-12 flex-cols-3 lg:flex-nowrap flex-wrap lg:gap-x-8 lg:gap-y-8">
-        {projects.map((item) => {
-          return <Project item={item} key={item.id} />;
-        })}
+
+      <section className=" gap-y-12 lg:gap-x-8 lg:gap-y-8">
+        <Slider {...settings}>
+          {projects.map((item) => {
+            return <Project item={item} key={item.id} />;
+          })}
+        </Slider>
       </section>
     </div>
   );

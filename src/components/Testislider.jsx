@@ -8,16 +8,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../swiper.css";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 
 const TestiSlider = () => {
   return (
     <>
       <Swiper
+        navigation
         pagination={{
           clickable: true,
         }}
@@ -25,7 +27,7 @@ const TestiSlider = () => {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         {testimonials.map((item, index) => {

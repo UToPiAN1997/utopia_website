@@ -7,9 +7,9 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="section group bg-secondary 2xl:mx-60 xl:mx-16 lg:px-12 md:px-14 sm:px-2"
+      className="section group bg-secondary 2xl:px-72 xl:px-16 lg:px-12 md:px-14 sm:px-2"
     >
-      <div className="sm:mx-0 mx-2">
+      <div className="sm:mx-0 mx-2 group-hover:animate-fade-in-up">
         <h2 className="text-h2 font-extrabold text-left">
           SOME OF OUR <span className="text-primary">TESTIMONIALS</span>
         </h2>
@@ -19,7 +19,7 @@ const Testimonials = () => {
           more. The main aim is to create and make the impossible possible.
         </p>
       </div>
-      <div className="mt-12 group-hover:animate-fade-in-up">
+      <div className="mt-12 ">
         <div className="flex flex-col items-center text-center"></div>
         <TestiSlider />
       </div>
