@@ -21,10 +21,10 @@ module.exports = {
         },
         float: {
           "0%, 100%": {
-            transform: "translateY(-8px)",
+            transform: "translateY(-10px)",
           },
           "50%": {
-            transform: "translateY(8px)",
+            transform: "translateY(10px)",
           },
         },
         "fade-in-up": {
@@ -70,7 +70,7 @@ module.exports = {
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
-        float: "float 7s ease-in-out infinite",
+        float: "float 6s ease-in-out infinite",
         "fade-in-down": "fade-in-down 0.7s ease-out",
         "fade-out-down": "fade-out-down 0.7s ease-out",
         "fade-in-up": "fade-in-up 0.7s ease-out",

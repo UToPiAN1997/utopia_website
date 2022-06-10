@@ -20,6 +20,7 @@ const TestiSlider = () => {
     <>
       <Swiper
         navigation
+        speed={700}
         pagination={{
           clickable: true,
         }}

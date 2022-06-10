@@ -16,9 +16,9 @@ const Hero = () => {
     },
   };
   return (
-    <div classname="hero">
-      <div className="2xl:px-72 xl:px-16 lg:px-12 md:px-14 sm:px-2 flex flex-cols-2 group justify-center md:mx-0 sm:mx-2 items-center md:pt-20 pt-10 align-middle xl:flex-nowrap flex-wrap-reverse 2xl:gap-12">
-        <div className="flex flex-col justify-center transition items-start 2xl:w-full lg:w-full">
+    <div classname="hero ">
+      <div className="group 2xl:px-72 xl:px-16 lg:px-12 md:px-14 sm:px-2 flex flex-cols-2 justify-center md:mx-0 sm:mx-2 items-center md:pt-20 pt-10 align-middle xl:flex-nowrap flex-wrap-reverse 2xl:gap-12">
+        <div className="flex flex-col justify-center transition items-start 2xl:w-full lg:w-full group-hover:animate-fade-in-up">
           <h1 className="text-h2 text-textblack font-black">
             FROM A <span className="text-primary">THOUGHT</span> TO AN{" "}
             <span className="text-primary">IDEA</span>
@@ -29,8 +29,8 @@ const Hero = () => {
             From an idea to brand, from brand to a product, from product to
             success
           </p>
-          <div className="mt-4 group-hover:duration-200 group-hover:translate-x-2 ">
-            <button className="text-white font-h4 font-bold group hover:transition bg-primary px-6 py-3 flex items-center gap-2">
+          <div className="mt-4">
+            <button className="text-white font-h4 font-bold bg-primary px-6 py-3 flex items-center gap-2">
               Contact
               <span className="">
                 <HiArrowNarrowRight />
