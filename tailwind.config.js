@@ -80,6 +80,7 @@ module.exports = {
         body: "#ffffff",
         "selected-text": "#000000",
         primary: "#2CB9EA",
+        secondary: "#3CC9E6",
         accent: "#f5f5f5",
         textblack: "#0E1111",
         "input-border": "#2Cb9EA",

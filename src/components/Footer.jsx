@@ -8,23 +8,23 @@ const Footer = () => {
       <div className="flex flex-cols-3 flex-wrap gap-8 w-full justify-center items-center">
         <div className="justify-start items-start w-auto">
           <img src={Logo} className="items-start" alt="Footer Logo" />
-          <p className="font-normal mt-4 items-start">
+          <p className="cpregular mt-4 items-start font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
         <div className="justify-center items-center w-1/3">
           <ul className="flex flex-row flex-wrap lg:flex-nowrap items-center justify-center">
-            <li className="text-pr font-semibold">HOME</li>
-            <li className="text-pr font-semibold">SERVICES</li>
-            <li className="text-pr font-semibold">WORKS</li>
-            <li className="text-pr font-semibold">CONTACT</li>
+            <li className="cpregular font-semibold">HOME</li>
+            <li className="cpregular font-semibold">SERVICES</li>
+            <li className="cpregular font-semibold">WORKS</li>
+            <li className="cpregular font-semibold">CONTACT</li>
           </ul>
         </div>
         <div className="items-end">
           <ul className="flex flex-col items-center lg:items-end justify-end">
-            <li className="text-pr font-semibold">Kathmandu, Nepal</li>
-            <li className="text-pr font-semibold">contact@utopia.com</li>
-            <li className="text-pr font-semibold">+91 9812345678</li>
+            <li className="cpregular font-semibold">Kathmandu, Nepal</li>
+            <li className="cpregular font-semibold">contact@utopia.com</li>
+            <li className="cpregular font-semibold">+91 9812345678</li>
           </ul>
         </div>
       </div>

@@ -82,7 +82,7 @@ const Projects = () => {
     <div className="">
       {/* projects nav */}
       <nav className="mt-4 mb-4">
-        <ul className="flex flex-col md:flex-row items-start text-black font-normal text-pr">
+        <ul className="flex flex-col md:flex-row items-start text-black font-normal cpregular">
           {projectsNav.map((item, index) => {
             return (
               <li

@@ -19,19 +19,19 @@ function Navbar() {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    console.log(window.scrollY)
+    console.log(window.scrollY);
     if (window.scrollY >= 66) {
-      setNavbar(true)
+      setNavbar(true);
     } else {
-      setNavbar(false)
+      setNavbar(false);
     }
-  }
+  };
 
   useEffect(() => {
-    changeBackground()
+    changeBackground();
     // adding the event when scroll change background
-    window.addEventListener("scroll", changeBackground)
-  })
+    window.addEventListener("scroll", changeBackground);
+  });
 
   window.addEventListener("scroll", changeBackground);
 
@@ -44,22 +44,22 @@ function Navbar() {
           </Link>
         </div>
         <ul className="hidden md:flex items-center">
-          <li className="text-pr font-semibold">
+          <li className="cpregular font-semibold">
             <Link to="Homepage" smooth={true} duration={500}>
               HOME
             </Link>
           </li>
-          <li className="text-pr font-semibold">
+          <li className="cpregular font-semibold">
             <Link to="Services" smooth={true} duration={500}>
               SERVICES
             </Link>
           </li>
-          <li className="text-pr font-semibold">
+          <li className="cpregular font-semibold">
             <Link to="Works" smooth={true} duration={500}>
               WORKS
             </Link>
           </li>
-          <li className="text-pr font-semibold">
+          <li className="cpregular font-semibold">
             <Link to="CTA" smooth={true} duration={500}>
               CONTACT
             </Link>

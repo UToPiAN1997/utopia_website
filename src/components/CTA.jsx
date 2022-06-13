@@ -22,7 +22,7 @@ const CTA = () => {
           <Lottie options={defaultOptions} height={750} width={750} />
         </div>
         <div className="flex flex-col justify-center group-hover:animate-fade-in-up w-full">
-          <h2 className="text-h2 font-extrabold capitalize text-left">
+          <h2 className="cheader2 font-extrabold capitalize text-left">
             READY TO LAUNCH YOUR <span className="text-primary">PRODUCT?</span>
             <br />
             <span className="text-primary">WE</span> ARE HERE FOR YOU
@@ -31,28 +31,28 @@ const CTA = () => {
             <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
               <input
                 type="text"
-                className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative text-pl"
+                className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative cplarge"
                 placeholder="Name"
               />
             </div>
             <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
               <input
                 type="text"
-                className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative text-pl"
+                className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative cplarge"
                 placeholder="Email"
               />
             </div>
             <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
               <input
                 type="text"
-                className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative text-pl"
+                className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative cplarge"
                 placeholder="Subject"
               />
             </div>
             <div className="mt-4">
-              <button className="text-white font-h4 font-bold group hover:transition bg-primary px-6 py-3 flex items-center gap-4">
+              <button className="text-white cheader4 font-semibold hover:transition bg-gradient-to-b from-primary to-secondary hover:drop-shadow-lg px-6 py-3 flex items-center gap-4">
                 Contact
-                <span className="group-hover:translate-x-2 group-hover:duration-200">
+                <span className="">
                   <HiArrowNarrowRight />
                 </span>
               </button>

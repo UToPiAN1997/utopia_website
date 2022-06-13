@@ -11,7 +11,7 @@ import React from "react";
 const Techstack = () => {
   return (
     <div className="group 2xl:mx-60 xl:mx-16 lg:px-12 md:px-14 sm:px-2 py-20 ">
-      <h2 className="text-h2 font-extrabold text-start">
+      <h2 className="cheader2 font-bold text-start">
         <span className="text-primary">TOOLS </span>
         AND <span className="text-primary">TECHNOLOGIES</span> DESIGNED FOR
         CREATING COMPETITIVE <span className="text-primary">PRODUCTS</span>

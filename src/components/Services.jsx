@@ -18,13 +18,13 @@ const Services = () => {
         <div className="flex flex-col-2 flex-wrap group">
           <div className="flex-row w-full xl:w-1/2 sm:w-full">
             <div className="group-hover:animate-fade-in-up">
-              <h2 className="text-h2 text-textblack font-extrabold">
+              <h2 className="cheader2 text-textblack font-bold">
                 BRAINSTORMING A <span className="text-primary">CREATION</span>{" "}
                 <br />
                 FROM <span className="text-primary">DESIGN</span>, TO
                 <span className="text-primary"> DEVELOPMENT</span>
               </h2>
-              <p className="text-pr font-normal mt-2">
+              <p className="cpregular font-normal mt-2">
                 There are no limits to creation whether be it logo, UI, UX,
                 website, mobile application, photo manipulation, vector
                 illustration and even more. The main aim is to create and make
@@ -35,18 +35,18 @@ const Services = () => {
               <div className="grid md:grid-cols-2 md:grid-row-2 gap-6">
                 <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 flex-wrap items-center">
-                    <div className="bg-primary rounded-full h-auto w-auto p-6">
+                    <div className="bg-gradient-to-b from-secondary to-primary rounded-full h-auto w-auto p-6">
                       <img
                         src={Designicon}
                         className="h-auto w-auto animate-wiggle"
                         alt="Design Icon"
                       />
                     </div>
-                    <h1 className="text-textblack text-pl font-extrabold uppercase">
+                    <h1 className="text-textblack cplarge font-extrabold uppercase">
                       Design
                     </h1>
                   </div>
-                  <p className="text-pr font-normal mt-4">
+                  <p className="cpregular font-normal mt-4">
                     -Branding -Logo Design -UI Design -UX Design
                   </p>
                 </div>
@@ -59,11 +59,11 @@ const Services = () => {
                         alt="Design Icon"
                       />
                     </div>
-                    <h1 className="text-textblack font-extrabold text-pl uppercase">
+                    <h1 className="text-textblack cplarge font-extrabold uppercase">
                       Web Development
                     </h1>
                   </div>
-                  <p className="text-pr font-normal mt-4">
+                  <p className="cpregular font-normal mt-4">
                     -Branding -Logo Design -UI Design -UX Design
                   </p>
                 </div>
@@ -76,11 +76,11 @@ const Services = () => {
                         alt="Design Icon"
                       />
                     </div>
-                    <h1 className="text-textblack font-extrabold text-pl uppercase">
+                    <h1 className="text-textblack cplarge font-extrabold uppercase">
                       Mobile Development
                     </h1>
                   </div>
-                  <p className="text-pr font-normal mt-4">
+                  <p className="cpregular font-normal mt-4">
                     -Branding -Logo Design -UI Design -UX Design
                   </p>
                 </div>
@@ -93,11 +93,11 @@ const Services = () => {
                         alt="Design Icon"
                       />
                     </div>
-                    <h1 className="text-textblack font-extrabold text-pl uppercase">
+                    <h1 className="text-textblack cplarge font-extrabold uppercase">
                       Brand Identity
                     </h1>
                   </div>
-                  <p className="text-pr font-normal mt-4">
+                  <p className="cpregular font-normal mt-4">
                     -Branding -Logo Design -UI Design -UX Design
                   </p>
                 </div>
