@@ -29,7 +29,7 @@ const Hero = () => {
             success
           </p>
           <div className="mt-4">
-            <button className="text-white cheader4 font-semibold bg-gradient-to-b from-primary to-secondary hover:drop-shadow-lg px-6 py-3 flex items-center gap-2">
+            <button className="text-white hover:outline hover:outline-2 hover:outline-primary rounded-sm cheader4 font-normal bg-gradient-to-b from-primary to-secondary hover:drop-shadow-lg px-6 py-2 flex items-center gap-2">
               Contact
               <span className="">
                 <HiArrowNarrowRight />
@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="relative justify-center items-center">
           <div className="absolute z-10 justify-center items-center">
             <img
-              className="mt-28 animate-float duration-200"
+              className="mt-28 animate-float duration-200 drop-shadow-2xl"
               src={Heroimage}
               alt="Hero Background"
             />

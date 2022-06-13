@@ -37,29 +37,29 @@ function Navbar() {
 
   return (
     <div className={navbar ? "navbar active" : "navbar"}>
-      <div className="fixed z-50 2xl:px-72 xl:px-16 lg:px-12 w-full h-[80px] flex bg-gradient-to-b from-accent to-transparent justify-between items-center px-4 text-black">
+      <div className="fixed z-50 2xl:px-72 xl:px-16 lg:px-12 w-full h-24 flex bg-gradient-to-b from-accent to-transparent justify-between items-center px-4 text-black">
         <div>
           <Link to="Homepage" smooth={true} duration={500}>
             <img className="h-full w-auto" src={Logo} alt="Logo Image" />
           </Link>
         </div>
         <ul className="hidden md:flex items-center">
-          <li className="cpregular font-semibold">
+          <li className="cpregular hover:text-primary hover:drop-shadow-sm font-semibold">
             <Link to="Homepage" smooth={true} duration={500}>
               HOME
             </Link>
           </li>
-          <li className="cpregular font-semibold">
+          <li className="cpregular hover:text-primary hover:drop-shadow-sm font-semibold">
             <Link to="Services" smooth={true} duration={500}>
               SERVICES
             </Link>
           </li>
-          <li className="cpregular font-semibold">
+          <li className="cpregular hover:text-primary hover:drop-shadow-sm font-semibold">
             <Link to="Works" smooth={true} duration={500}>
               WORKS
             </Link>
           </li>
-          <li className="cpregular font-semibold">
+          <li className="cpregular hover:text-primary hover:drop-shadow-sm font-semibold">
             <Link to="CTA" smooth={true} duration={500}>
               CONTACT
             </Link>

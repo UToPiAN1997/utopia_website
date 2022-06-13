@@ -28,21 +28,21 @@ const CTA = () => {
             <span className="text-primary">WE</span> ARE HERE FOR YOU
           </h2>
           <form className="flex flex-col mt-4">
-            <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
+            <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-accent  items-center mb-4 focus:border-bluegradient1 focus:border-2">
               <input
                 type="text"
                 className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative cplarge"
                 placeholder="Name"
               />
             </div>
-            <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
+            <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-accent  items-center mb-4 focus:border-bluegradient1 focus:border-2">
               <input
                 type="text"
                 className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative cplarge"
                 placeholder="Email"
               />
             </div>
-            <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-gray-300  items-center mb-4 focus:border-bluegradient1 focus:border-2">
+            <div className="mt-2 flex flex-wrap w-full relative h-14 bg-white border-2 border-accent  items-center mb-4 focus:border-bluegradient1 focus:border-2">
               <input
                 type="text"
                 className="py-2 px-4 focus:outline-none border-none flex-shrink flex-grow leading-normal w-px flex-1 h-10 border-grey-light rounded rounded-l-none self-center relative cplarge"
@@ -50,8 +50,8 @@ const CTA = () => {
               />
             </div>
             <div className="mt-4">
-              <button className="text-white cheader4 font-semibold hover:transition bg-gradient-to-b from-primary to-secondary hover:drop-shadow-lg px-6 py-3 flex items-center gap-4">
-                Contact
+              <button className="text-white hover:outline hover:outline-2 hover:outline-primary rounded-sm cheader4 font-normal bg-gradient-to-b from-primary to-secondary hover:drop-shadow-lg px-6 py-2 flex items-center gap-2">
+                Submit
                 <span className="">
                   <HiArrowNarrowRight />
                 </span>

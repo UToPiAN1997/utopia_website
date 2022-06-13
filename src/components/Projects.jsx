@@ -37,7 +37,7 @@ const Projects = () => {
     dots: true,
     arrow: true,
     infinite: true,
-    speed: 3500,
+    speed: 2500,
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 3,

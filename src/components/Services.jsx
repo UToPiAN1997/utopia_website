@@ -35,14 +35,14 @@ const Services = () => {
               <div className="grid md:grid-cols-2 md:grid-row-2 gap-6">
                 <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 flex-wrap items-center">
-                    <div className="bg-gradient-to-b from-secondary to-primary rounded-full h-auto w-auto p-6">
+                    <div className="bg-gradient-to-b from-secondary to-primary rounded-full h-24 w-24 p-6 hover:outline hover:outline-2 hover:outline-primary hover:drop-shadow-lg">
                       <img
                         src={Designicon}
-                        className="h-auto w-auto animate-wiggle"
+                        className="h-full w-full animate-wiggle"
                         alt="Design Icon"
                       />
                     </div>
-                    <h1 className="text-textblack cplarge font-extrabold uppercase">
+                    <h1 className="text-textblack cpregular font-extrabold uppercase">
                       Design
                     </h1>
                   </div>
@@ -52,14 +52,14 @@ const Services = () => {
                 </div>
                 <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 items-center">
-                    <div className="bg-primary rounded-full h-auto w-auto p-6">
+                    <div className="bg-gradient-to-b from-secondary to-primary rounded-full h-24 w-24 p-6 hover:outline hover:outline-2 hover:outline-primary hover:drop-shadow-lg">
                       <img
                         src={Webdevicon}
-                        className="h-auto w-auto animate-wiggle"
-                        alt="Design Icon"
+                        className="h-full w-full animate-wiggle"
+                        alt="Web Icon"
                       />
                     </div>
-                    <h1 className="text-textblack cplarge font-extrabold uppercase">
+                    <h1 className="text-textblack cpregular font-extrabold uppercase">
                       Web Development
                     </h1>
                   </div>
@@ -69,14 +69,14 @@ const Services = () => {
                 </div>
                 <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 items-center">
-                    <div className="bg-primary rounded-full h-auto w-auto p-6">
+                    <div className="bg-gradient-to-b from-secondary to-primary rounded-full h-24 w-24 p-6 hover:outline hover:outline-2 hover:outline-primary hover:drop-shadow-lg">
                       <img
                         src={Mobileicon}
-                        className="h-auto w-auto animate-wiggle"
-                        alt="Design Icon"
+                        className="h-full w-full animate-wiggle"
+                        alt="Mobile Icon"
                       />
                     </div>
-                    <h1 className="text-textblack cplarge font-extrabold uppercase">
+                    <h1 className="text-textblack cpregular font-extrabold uppercase">
                       Mobile Development
                     </h1>
                   </div>
@@ -86,14 +86,14 @@ const Services = () => {
                 </div>
                 <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
                   <div className="flex flex-row gap-6 items-center">
-                    <div className="bg-primary rounded-full h-auto w-auto p-6">
+                    <div className="bg-gradient-to-b from-secondary to-primary rounded-full h-24 w-24 p-6 hover:outline hover:outline-2 hover:outline-primary hover:drop-shadow-lg">
                       <img
                         src={Brandicon}
-                        className="h-auto w-auto animate-wiggle"
+                        className="h-full w-full animate-wiggle"
                         alt="Design Icon"
                       />
                     </div>
-                    <h1 className="text-textblack cplarge font-extrabold uppercase">
+                    <h1 className="text-textblack cpregular font-extrabold uppercase">
                       Brand Identity
                     </h1>
                   </div>
