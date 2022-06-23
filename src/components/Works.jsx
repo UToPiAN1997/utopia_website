@@ -10,8 +10,8 @@ const Works = () => {
           WE HAVE BROUGHT TO <span className="text-primary">REALITY</span>
         </h2>
         <p className="cpregular font-normal mt-2">
-          This is a showcase of some of the works we have done ranging within
-          various categories.
+          This is a showcase of some of the works varying from design to
+          development.
         </p>
       </div>
       <div className=" px-2 md:px-6">
