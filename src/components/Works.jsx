@@ -7,7 +7,7 @@ const Works = () => {
       <div className="px-2 md:px-6 group-hover:animate-fade-in-up">
         <h2 className="cheader2 font-bold text-left ">
           <span className="text-primary">IDEAS </span>
-          WE HAVE BROUGHT TO <span className="text-primary">REALITY</span>
+          BROUGHT TO <span className="text-primary">REALITY</span>
         </h2>
         <p className="cpregular font-normal mt-2">
           This is a showcase of some of the works varying from design to
