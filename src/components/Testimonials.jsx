@@ -14,9 +14,7 @@ const Testimonials = () => {
           SOME OF OUR <span className="text-primary">TESTIMONIALS</span>
         </h2>
         <p className="cpregular font-normal mt-2">
-          There are no limits to creation whether be it logo, UI, UX, website,
-          mobile application, photo manipulation, vector illustration and even
-          more. The main aim is to create and make the impossible possible.
+          Here are some testimonials after some successful projects.
         </p>
       </div>
       <div className="mt-12 ">

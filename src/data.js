@@ -1,55 +1,90 @@
 // projects images
-import Project1 from "../src/assets/projects/p1.png";
-import Project2 from "../src/assets/projects/p1.png";
-import Project3 from "../src/assets/projects/p1.png";
+import Project1 from "../src/assets/projects/qpayportfolio.png";
+import Project2 from "../src/assets/projects/bitsbeat.png";
+import Project3 from "../src/assets/projects/tgnepalportfolio.png";
 import Project4 from "../src/assets/projects/p1.png";
-import Project5 from "../src/assets/projects/p1.png";
-import Project6 from "../src/assets/projects/p1.png";
+import Project5 from "../src/assets/projects/musicapp.png";
+import Project6 from "../src/assets/projects/kioskapp.png";
+import Project7 from "../src/assets/projects/ecommerceapp.png";
+import Project8 from "../src/assets/projects/tokenwebsite.png";
+import Project9 from "../src/assets/projects/ticketkiosk.png";
+import Project10 from "../src/assets/projects/company1.png";
+import Project11 from "../src/assets/projects/productwebsite.png";
 
 // testimonial images
-import TestiImage1 from "../src/assets/testimonials/ceo.png";
-import TestiImage2 from "../src/assets/testimonials/ceo.png";
-import TestiImage3 from "../src/assets/testimonials/ceo.png";
+import TestiImage1 from "../src/assets/testimonials/tglogo.png";
+import TestiImage2 from "../src/assets/testimonials/qpaylogo.png";
 
 import MockupImage1 from "../src/assets/testimonials/Travelappmockup.png";
+import MockupImage2 from "../src/assets/testimonials/qpayappmockup.png";
 
 // projects
 export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "project name 1",
-    category: "UI/UX design",
+    name: "MOBILE WALLET APPLICATION",
+    category: "Product Design And Front End",
   },
   {
     id: "2",
     image: Project2,
-    name: "project name 2",
-    category: "web development",
+    name: "COMPANY WEBSITE REVAMP",
+    category: "Web Design",
   },
   {
     id: "3",
     image: Project3,
-    name: "project name 3",
-    category: "UI/UX design",
+    name: "TRAVEL APP",
+    category: "Product Design",
   },
   {
     id: "4",
     image: Project4,
-    name: "project name 4",
-    category: "Branding",
+    name: "BLOCKCHAIN WEBSITE CONCEPT",
+    category: "UI/UX Design",
   },
   {
     id: "5",
     image: Project5,
-    name: "project name 5",
-    category: "Web development",
+    name: "MUSIC APP CONCEPT",
+    category: "UI/UX Design",
   },
   {
     id: "6",
     image: Project6,
-    name: "project name 6",
-    category: "Web development",
+    name: "ORDERING KIOSK APP",
+    category: "UI/UX Design",
+  },
+  {
+    id: "7",
+    image: Project7,
+    name: "ECOMMERCE APP CONCEPT",
+    category: "UI/UX Design",
+  },
+  {
+    id: "8",
+    image: Project8,
+    name: "TOKEN WEBSITE CONCEPT",
+    category: "UI/UX Design",
+  },
+  {
+    id: "9",
+    image: Project9,
+    name: "TICKETING KISOK APP",
+    category: "UI/UX Design",
+  },
+  {
+    id: "10",
+    image: Project10,
+    name: "COMPANY WEBSITE CONCEPT",
+    category: "UI/UX Design",
+  },
+  {
+    id: "10",
+    image: Project10,
+    name: "PRODUCT WEBSITE CONCEPT",
+    category: "UI/UX Design",
   },
 ];
 
@@ -75,24 +110,16 @@ export const testimonials = [
     mockupImg: MockupImage1,
     authorImg: TestiImage1,
     authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it. Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "John Doe",
-    authorPosition: "CEO, Example Company",
+      "If you are looking for the elegant, detailed and user friendly designs then this team have that talent.",
+    authorName: "TRAVEL GUIDE",
+    authorPosition: "CEO",
   },
   {
-    mockupImg: MockupImage1,
+    mockupImg: MockupImage2,
     authorImg: TestiImage2,
     authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it. Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "John Doe",
-    authorPosition: "CEO, Example Company",
-  },
-  {
-    mockupImg: MockupImage1,
-    authorImg: TestiImage3,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it. Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "John Doe",
-    authorPosition: "CEO, Example Company",
+      "From brand identity to product design. This team is ready for any task possible that includes design.",
+    authorName: "QPAY",
+    authorPosition: "CEO",
   },
 ];

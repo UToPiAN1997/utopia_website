@@ -9,14 +9,14 @@ const Project = ({ item }) => {
       <div className="">
         <img className="rounded-lg drop-shadow-lg" src={item.image} alt="" />
       </div>
-      <div className="mt-4 py-1 px-4 rounded-md bg-transparent border-2 border-primary items-center">
+      <h3 className="mt-4 cheader4 font-bold capitalize">{item.name}</h3>
+      <div className="mt-2 py-1 px-4 rounded-md bg-transparent border-2 border-primary items-center">
         <p className="capitalize text-primary cpsmall">{item.category}</p>
       </div>
-      <h3 className="mt-4 cheader4 font-bold capitalize">{item.name}</h3>
-      <p className="cpregular font-normal max-w-md text-left mt-2">
+      {/* <p className="cpregular font-normal max-w-md text-left mt-2">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
         obcaecati ipsam.
-      </p>
+      </p> */}
     </div>
   );
 };

@@ -3,7 +3,7 @@ import {
   Jsicon,
   Reacticon,
   Nodejsicon,
-  Npmicon,
+  Adobeicon,
 } from "../urlFilePath";
 
 import React from "react";
@@ -22,6 +22,13 @@ const Techstack = () => {
             src={Figmaicon}
             className="h-14 w-auto justify-center items-center"
             alt="Figma Icon"
+          />
+        </div>
+        <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-down">
+          <img
+            src={Adobeicon}
+            className="w-14 h-auto justify-center items-center"
+            alt="Npm Icon"
           />
         </div>
         <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-up">
@@ -43,13 +50,6 @@ const Techstack = () => {
             src={Nodejsicon}
             className="h-14 w-auto justify-center items-center"
             alt="Nodejs Icon"
-          />
-        </div>
-        <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-down">
-          <img
-            src={Npmicon}
-            className="w-14 h-auto justify-center items-center"
-            alt="Npm Icon"
           />
         </div>
       </div>

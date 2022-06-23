@@ -81,7 +81,7 @@ const Projects = () => {
   return (
     <div className="">
       {/* projects nav */}
-      <nav className="mt-4 mb-4">
+      {/* <nav className="mt-4 mb-4">
         <ul className="flex flex-col md:flex-row items-start text-black font-normal cpregular">
           {projectsNav.map((item, index) => {
             return (
@@ -99,7 +99,7 @@ const Projects = () => {
             );
           })}
         </ul>
-      </nav>
+      </nav> */}
       {/* projects */}
 
       <section className=" gap-y-12 lg:gap-x-8 lg:gap-y-8">

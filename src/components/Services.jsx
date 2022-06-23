@@ -43,7 +43,7 @@ const Services = () => {
                       />
                     </div>
                     <h1 className="text-textblack cpregular font-extrabold uppercase">
-                      Design
+                      Product <br></br>Design
                     </h1>
                   </div>
                   <p className="cpregular font-normal mt-4">
@@ -60,11 +60,11 @@ const Services = () => {
                       />
                     </div>
                     <h1 className="text-textblack cpregular font-extrabold uppercase">
-                      Web Development
+                      Web <br></br>Development
                     </h1>
                   </div>
                   <p className="cpregular font-normal mt-4">
-                    -Branding -Logo Design -UI Design -UX Design
+                    -Web Frontend -Web UI -Web UX
                   </p>
                 </div>
                 <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
@@ -77,11 +77,11 @@ const Services = () => {
                       />
                     </div>
                     <h1 className="text-textblack cpregular font-extrabold uppercase">
-                      Mobile Development
+                      Mobile <br></br>Development
                     </h1>
                   </div>
                   <p className="cpregular font-normal mt-4">
-                    -Branding -Logo Design -UI Design -UX Design
+                    -Mobile Frontend -Mobile UI -Mobile UX
                   </p>
                 </div>
                 <div className="bg-gradient-to-b from-transparent to-transparent w-auto h-auto px-8 py-12 rounded-xl">
@@ -94,11 +94,11 @@ const Services = () => {
                       />
                     </div>
                     <h1 className="text-textblack cpregular font-extrabold uppercase">
-                      Brand Identity
+                      Brand <br></br>Identity
                     </h1>
                   </div>
                   <p className="cpregular font-normal mt-4">
-                    -Branding -Logo Design -UI Design -UX Design
+                    -Brand Consistancy -Digital Presence
                   </p>
                 </div>
               </div>

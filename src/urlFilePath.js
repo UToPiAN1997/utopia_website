@@ -12,4 +12,4 @@ export const Figmaicon = imageInitialUrl + "/figmaicon.svg";
 export const Jsicon = imageInitialUrl + "/jsicon.svg";
 export const Reacticon = imageInitialUrl + "/reacticon.svg";
 export const Nodejsicon = imageInitialUrl + "/nodejsicon.svg";
-export const Npmicon = imageInitialUrl + "/npmicon.svg";
+export const Adobeicon = imageInitialUrl + "/adobecc.svg";

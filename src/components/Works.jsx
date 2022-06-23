@@ -10,9 +10,8 @@ const Works = () => {
           WE HAVE BROUGHT TO <span className="text-primary">REALITY</span>
         </h2>
         <p className="cpregular font-normal mt-2">
-          There are no limits to creation whether be it logo, UI, UX, website,
-          mobile application, photo manipulation, vector illustration and even
-          more. The main aim is to create and make the impossible possible.
+          This is a showcase of some of the works we have done ranging within
+          various categories.
         </p>
       </div>
       <div className=" px-2 md:px-6">

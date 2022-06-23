@@ -11,7 +11,8 @@ const Footer = () => {
         <div className="justify-start items-start w-auto">
           <img src={Logo} className="items-start" alt="Footer Logo" />
           <p className="cpregular mt-4 items-start font-normal">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            From an idea to brand, from brand to a product, from product to
+            success.
           </p>
         </div>
         <div className="justify-center items-center w-1/3">
@@ -41,8 +42,8 @@ const Footer = () => {
         <div className="items-end">
           <ul className="flex flex-col items-center lg:items-end justify-end">
             <li className="cpregular font-normal">Kathmandu, Nepal</li>
-            <li className="cpregular font-normal">contact@utopia.com</li>
-            <li className="cpregular font-normal">+91 9812345678</li>
+            <li className="cpregular font-normal">bistasambhrant1@gmail.com</li>
+            <li className="cpregular font-normal">+91 9864831807</li>
           </ul>
         </div>
       </div>
