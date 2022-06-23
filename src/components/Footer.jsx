@@ -43,7 +43,7 @@ const Footer = () => {
           <ul className="flex flex-col items-center lg:items-end justify-end">
             <li className="cpregular font-normal">Kathmandu, Nepal</li>
             <li className="cpregular font-normal">bistasambhrant1@gmail.com</li>
-            <li className="cpregular font-normal">+91 9864831807</li>
+            <li className="cpregular font-normal">+977 9864831807</li>
           </ul>
         </div>
       </div>
