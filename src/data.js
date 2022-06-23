@@ -82,7 +82,7 @@ export const projectsData = [
   },
   {
     id: "10",
-    image: Project10,
+    image: Project11,
     name: "PRODUCT WEBSITE CONCEPT",
     category: "UI/UX Design",
   },
