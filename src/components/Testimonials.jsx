@@ -11,10 +11,10 @@ const Testimonials = () => {
     >
       <div className="sm:mx-0 mx-2 group-hover:animate-fade-in-up">
         <h2 className="cheader2 font-bold text-left">
-          SOME OF OUR <span className="text-primary">TESTIMONIALS</span>
+          SOME<span className="text-primary"> TESTIMONIALS</span>
         </h2>
         <p className="cpregular font-normal mt-2">
-          Here are some testimonials after some successful projects.
+          Here are some testimonials of the projects that have been launched.
         </p>
       </div>
       <div className="mt-12 ">
