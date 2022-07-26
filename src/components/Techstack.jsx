@@ -45,13 +45,13 @@ const Techstack = () => {
             alt="React Icon"
           />
         </div>
-        <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-up">
+        {/* <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-up">
           <img
             src={Nodejsicon}
             className="h-14 w-auto justify-center items-center"
             alt="Nodejs Icon"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
