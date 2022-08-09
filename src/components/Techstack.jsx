@@ -28,7 +28,7 @@ const Techstack = () => {
           <img
             src={Adobeicon}
             className="w-14 h-auto justify-center items-center"
-            alt="Npm Icon"
+            alt="Adobe Icon"
           />
         </div>
         <div className="p-8 bg-white hover:bg-accent group-hover:animate-fade-in-up">
