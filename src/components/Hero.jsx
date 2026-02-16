@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="group 2xl:px-72 xl:px-16 lg:px-12 md:px-14 sm:px-2 flex flex-cols-2 justify-center md:mx-0 sm:mx-2 items-center md:pt-20 pt-10 align-middle xl:flex-nowrap flex-wrap 2xl:gap-12">
         <div className="flex flex-col justify-center transition items-start 2xl:w-full lg:w-full group-hover:animate-fade-in-up sm:mt-14">
           <h1 className="cheader1 text-textblack font-bold">
-            Hello! I’m Sam. Your Product Guy. Welcome to my Digital Utopia.
+            Hello!! I’m Sam. Your Product Guy. Welcome to my Digital Utopia.
           </h1>
           <p className="cpregular font-normal mt-4 ">
             I don’t just design interfaces; I manage the product lifecycle and drive market growth. I bridge the gap between user needs and business goals to build digital experiences that works.
