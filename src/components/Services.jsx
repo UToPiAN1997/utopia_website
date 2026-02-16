@@ -19,16 +19,11 @@ const Services = () => {
           <div className="flex-row w-full xl:w-1/2 sm:w-full">
             <div className="group-hover:animate-fade-in-up">
               <h2 className="cheader2 text-textblack font-bold">
-                BRAINSTORMING A <span className="text-primary">CREATION</span>{" "}
-                <br />
-                FROM <span className="text-primary">DESIGN</span>, TO
-                <span className="text-primary"> DEVELOPMENT</span>
+                Hello! I’m Sam. Your Product Guy. <br></br> 
+                Welcome to my Digital UToPiA.
               </h2>
               <p className="cpregular font-normal mt-2">
-                There are no limits to creation whether be it logo, UI, UX,
-                website, mobile application, photo manipulation, vector
-                illustration and even more. The main aim is to create and make
-                the impossible possible.
+                I don’t just design interfaces; I manage the product lifecycle and drive market growth. I bridge the gap between user needs and business goals to build digital experiences that work.
               </p>
             </div>
             <div className="flex mt-6">
